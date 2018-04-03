@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Fira";
+  src: url("../assets/fonts/firasans/FiraSans-Regular.otf")
+}
+
+.header {
+  background-color: #FFF;
+  border-bottom: 1px solid #e7e7e7;
+  font-family: 'Fira';
+}
+
+.menu{
+  margin: 0 auto;
+  max-width: 960px;
+  color: #0f84db
+}
+
+.header img{
+  height: 50px;
+  margin: 15px 0;
+}
+
+.header a{
+  display: flex;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two { 
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+
