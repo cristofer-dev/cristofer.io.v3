@@ -12,9 +12,9 @@ export default function Index({ data }) {
           return (
             <div className="blog-post-preview" key={post.id}>
               <div>
-                <img src={'assets/img/' + post.frontmatter.image} width="100%" height="100px" />
+                <img src={'static/img/' + post.frontmatter.image} width="100%" height="100px" />
               </div>
-              
+              s
               <div className="date">{post.frontmatter.date}</div>
               <div className="title">
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>

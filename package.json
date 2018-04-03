@@ -17,8 +17,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build & cp -R src/assets/img public/assets",
-    "develop": "gatsby develop & cp -R src/assets/img public/assets",
+    "build": "gatsby build && cp -R src/assets/img public/static/",
+    "develop": "gatsby develop && cp -R src/assets/img public/static/",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
