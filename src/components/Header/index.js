@@ -12,8 +12,12 @@ const Header = () => (
             <img src={logo} alt="" />
           </Link>
         </div>
-        <div className="btn two">blog</div>
-        <div className="btn three">repos</div>
+        <div className="btn two">
+          <Link to="/">blog</Link>
+        </div>
+        <div className="btn three">
+        <Link to="/page-2/">repos</Link>
+        </div>
       </div>
     </div>
   </div>
