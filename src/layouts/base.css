@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../assets/fonts/Roboto/Roboto-Light.ttf")
+}
+
+body{
+  font-family: "Roboto-Regular"
+}
+
+a {
+  text-decoration: none;
+  color: #0f84db;
+}
+
+.header {
+  background-color: #FFF;
+  border-bottom: 1px solid #e7e7e7;
+  font-family: 'Roboto-Light';
+  margin-bottom: 20px;
+}
+
+.menu{
+  margin: 0 auto;
+  max-width: 960px;
+  color: #0f84db
+}
+
+.header img{
+  height: 50px;
+  margin: 15px 0;
+}
+
+.header a{
+  display: flex;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+  line-height: 4.4;
+}
+.one {
+  grid-column: 1 / 5;
+  grid-row: 1;
+}
+.two { 
+  grid-column: 5 / 7;
+  grid-row: 1;
+}
+.three {
+  grid-column: 7/9;
+  grid-row: 1;
+}
+
+.btn:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.wrapperBlog{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.wrapperBlog .title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.wrapperBlog .date{
+  color: gray;
+ font-size: 15px 
+}
+
+.wrapperBlog p{
+  font-size: 15px
+}
