@@ -95,3 +95,7 @@ a {
 .blog-post-container img {
   object-fit:cover;
 }
+
+.gatsby-highlight{
+  margin-bottom:25px;
+}
