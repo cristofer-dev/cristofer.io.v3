@@ -33,6 +33,7 @@ a {
 .header img{
   height: 50px;
   margin: 15px 0;
+  object-fit: cover
 }
 
 .header a{
@@ -70,9 +71,12 @@ a {
   grid-gap: 20px;
 }
 
+.wrapperBlog img{
+  object-fit: cover;
+}
+
 .wrapperBlog .title{
   font-size: 25px;
-  font-weight: bold;
 }
 
 .wrapperBlog .date{
