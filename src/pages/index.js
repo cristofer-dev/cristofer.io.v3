@@ -11,14 +11,16 @@ export default function Index({ data }) {
         .map(({ node: post }) => {
           return (
             <div className="blog-post-preview" key={post.id}>
-              <div>
-                <img src={'static/img/' + post.frontmatter.image} width="100%" height="100px" />
-              </div>
-              <div className="date">{post.frontmatter.date}</div>
-              <div className="title">
-                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </div>
-              <p>{post.excerpt}</p>
+              <Link to={post.frontmatter.path}>
+                <div>
+                  <img src={'static/img/' + post.frontmatter.image} width="100%" height="100px" />
+                </div>
+                <div className="date">{post.frontmatter.date}</div>
+                <div className="title">
+                  {post.frontmatter.title}
+                </div>
+                <p className="excerpt">{post.excerpt}</p>
+              </Link>
             </div>
           );
         })}

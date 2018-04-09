@@ -87,3 +87,11 @@ a {
 .wrapperBlog p{
   font-size: 15px
 }
+
+.excerpt{
+  color: black;
+}
+
+.blog-post-container img {
+  object-fit:cover;
+}
