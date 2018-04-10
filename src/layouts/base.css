@@ -33,6 +33,7 @@ a {
 .header img{
   height: 50px;
   margin: 15px 0;
+  object-fit: cover
 }
 
 .header a{
@@ -70,9 +71,12 @@ a {
   grid-gap: 20px;
 }
 
+.wrapperBlog img{
+  object-fit: cover;
+}
+
 .wrapperBlog .title{
   font-size: 25px;
-  font-weight: bold;
 }
 
 .wrapperBlog .date{
@@ -82,4 +86,27 @@ a {
 
 .wrapperBlog p{
   font-size: 15px
+}
+
+.excerpt{
+  color: black;
+}
+
+.blog-post-container img {
+  object-fit:cover;
+}
+
+.gatsby-highlight{
+  margin-bottom:25px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:#0f84db;
+  font-weight: normal
+}
+
+blockquote{
+  border-left: 3px solid #0f84db;
+  padding-left: 15px;
+  color: #9f9f9f;
 }

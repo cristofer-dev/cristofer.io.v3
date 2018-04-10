@@ -4,12 +4,13 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import './index.css'
+import '../assets/css/prism-default.css';
 import './base.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Cristofer.io"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
