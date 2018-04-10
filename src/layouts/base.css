@@ -99,3 +99,14 @@ a {
 .gatsby-highlight{
   margin-bottom:25px;
 }
+
+h1,h2,h3,h4,h5,h6{
+  color:#0f84db;
+  font-weight: normal
+}
+
+blockquote{
+  border-left: 3px solid #0f84db;
+  padding-left: 15px;
+  color: #9f9f9f;
+}
