@@ -2,13 +2,16 @@ import React from "react";
 import Helmet from "react-helmet";
 
 export default function Template({
-  data 
+  data
 }) {
-  const post = data.markdownRemark; 
+  const post = data.markdownRemark;
   return (
     <div className="blog-post-container">
-     <Helmet title={`CodeStack - ${post.frontmatter.title}`} />
+      <Helmet title={`CodeStack - ${post.frontmatter.title}`} />
       <div className="blog-post">
+        <div>
+          <img src={`static/img/${post.frontmatter.image}`} width="100%" height="150px" />
+        </div>
         <h1>{post.frontmatter.title}</h1>
         <div
           className="blog-post-content"
@@ -27,8 +30,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        image
       }
     }
   }
 `
-;
+  ;
