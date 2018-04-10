@@ -10,7 +10,7 @@ export default function Template({
       <Helmet title={`CodeStack - ${post.frontmatter.title}`} />
       <div className="blog-post">
         <div>
-          <img src={'static/img/' + post.frontmatter.image} width="100%" height="150px" />
+          <img src={`static/img/${post.frontmatter.image}`} width="100%" height="150px" />
         </div>
         <h1>{post.frontmatter.title}</h1>
         <div
