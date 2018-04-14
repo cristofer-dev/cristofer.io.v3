@@ -31,13 +31,14 @@ a {
 }
 
 .header img{
-  height: 50px;
+  max-height: 50px;
   margin: 15px 0;
   object-fit: cover
 }
 
-.header a{
-  display: flex;
+.logo a{
+  display: block;
+  height: 1px;
 }
 
 .wrapper {
@@ -47,7 +48,7 @@ a {
   text-align: center;
   line-height: 4.4;
 }
-.one {
+.logo {
   grid-column: 1 / 5;
   grid-row: 1;
 }
@@ -109,4 +110,26 @@ blockquote{
   border-left: 3px solid #0f84db;
   padding-left: 15px;
   color: #9f9f9f;
+}
+
+@media (max-width: 850px) {
+  .wrapperBlog{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .wrapperBlog{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logo {
+    grid-column: 1/13;
+    grid-row: 1;
+  }
+  .two {
+    visibility: hidden;
+  }
+  .three {
+    visibility: hidden;
+  }
 }
