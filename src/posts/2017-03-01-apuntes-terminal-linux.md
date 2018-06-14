@@ -40,6 +40,7 @@ Apagar Sistema                              | `sudo shutdown -h now`
 Reiniciar                                   | `sudo shutdown -r now`
 Saber si un paquete esta disponible en los repos | `apt-cache search paquete`
 Saber si un paquete esta instalado         | `dpkg -l | grep paquete`
+Filtrar logs omitiendo lineas que contengan `location` o `whispers`| `tail -f /var/log/apache2/access.log | egrep -v "location|v3/whispers"`
 
 
 **Liberar Espacio** |
