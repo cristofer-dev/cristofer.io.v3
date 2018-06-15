@@ -20,6 +20,7 @@ Terminar agente             | `killall ssh-agent`
 Iniciar Agente              | `eval $(ssh-agent -s)`
 Agregar llave al agente | `ssh-add /ruta/llave_privada` 
 Crear par de llaves SSH | `ssh-keygen`
+Subir archivo a servidor | `scp -i /path/public.pem dir/file.txt user@ip:/path/destino/`
 
 
 **Sistema** |
@@ -34,10 +35,12 @@ Guardar salida en archivo                   | `[comando] > archivo.txt`
 agregar salida al final del archivo         | `[comando] >> archivo.txt`
 Crear usuario                               | `adduser luis`
 Cambiar clave de otro usuario               | `passwd luis`
+Cambiar de usuario                          | `su - user2`
 Apagar Sistema                              | `sudo shutdown -h now`
 Reiniciar                                   | `sudo shutdown -r now`
 Saber si un paquete esta disponible en los repos | `apt-cache search paquete`
 Saber si un paquete esta instalado         | `dpkg -l | grep paquete`
+Filtrar logs omitiendo lineas que contengan `location` o `whispers`| `tail -f /var/log/apache2/access.log | egrep -v "location|v3/whispers"`
 
 
 **Liberar Espacio** |
@@ -91,4 +94,15 @@ if [ "$BASH" ]; then
    fi
 fi
 
+```
+
+### Habilitar usuario como SUDO
+
+En el file `/etc/sudoers` agregar el nombre de los usuarios que que quieres que tengan privilegios como root de la siguiente forma.
+
+```bash
+# User privilege specification
+root	ALL=(ALL:ALL) ALL
+usuario1 ALL=(ALL:ALL) ALL
+usuario2 ALL=(ALL:ALL) ALL
 ```
