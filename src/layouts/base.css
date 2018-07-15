@@ -9,7 +9,7 @@
 }
 
 body{
-  font-family: "Roboto-Regular"
+  font-family: 'Roboto-Light'
 }
 
 a {
@@ -78,6 +78,7 @@ a {
 
 .wrapperBlog .title{
   font-size: 25px;
+  font-weight: bold;
 }
 
 .wrapperBlog .date{
@@ -103,7 +104,8 @@ a {
 
 h1,h2,h3,h4,h5,h6{
   color:#0f84db;
-  font-weight: normal
+  font-weight: normal;
+  font-family: 'Roboto-Light'
 }
 
 blockquote{
