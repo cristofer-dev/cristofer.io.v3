@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75001"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath4557"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path4555"
+         d="M 0,0 H 2183.73 V 912 H 0 Z" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     y="2.6948853e-06"
+     x="4.4444446e-06"
+     height="285.75"
+     width="508"
+     id="rect4496-3"
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.76660395;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:6.13283153, 1.53320787999999997, 0.76660393999999998, 1.53320787999999997;stroke-dashoffset:0;stroke-opacity:1" />
+  <g
+     transform="matrix(0.95250002,0,0,0.95250002,111.07738,94.964251)"
+     id="Shape"
+     sketch:type="MSShapeGroup"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="g4516">
+      <path
+         style="fill:#ffffff"
+         d="M 57.8,27.2 57.7,0.3 h -15 l 0.1,26.9 7.5,10.3 z"
+         id="path4496" />
+      <path
+         style="fill:#ffffff"
+         d="m 42.8,73.3 v 27 h 15 v -27 L 50.3,63 Z"
+         id="path4498" />
+      <path
+         style="fill:#00f2e6"
+         d="M 57.8,73.3 73.6,95.1 85.7,86.3 69.9,64.5 57.8,60.6 Z"
+         id="path4500" />
+      <path
+         style="fill:#00f2e6"
+         d="M 42.8,27.2 26.9,5.4 14.8,14.2 30.6,36 42.8,39.9 Z"
+         id="path4502" />
+      <path
+         style="fill:#00b9f1"
+         d="M 30.6,36 5,27.7 0.4,41.9 26,50.3 l 12.1,-4 z"
+         id="path4504" />
+      <path
+         style="fill:#00b9f1"
+         d="m 62.4,54.2 7.5,10.3 25.6,8.3 4.6,-14.2 -25.6,-8.3 z"
+         id="path4506" />
+      <path
+         style="fill:#d63aff"
+         d="M 74.5,50.3 100.1,41.9 95.5,27.7 69.9,36 62.4,46.3 Z"
+         id="path4508" />
+      <path
+         style="fill:#d63aff"
+         d="M 26,50.3 0.4,58.6 5,72.8 30.6,64.5 38.1,54.2 Z"
+         id="path4510" />
+      <path
+         style="fill:#fb015b"
+         d="M 30.6,64.5 14.8,86.3 26.9,95.1 42.8,73.3 V 60.6 Z"
+         id="path4512" />
+      <path
+         style="fill:#fb015b"
+         d="M 69.9,36 85.7,14.2 73.6,5.4 57.8,27.2 v 12.7 z"
+         id="path4514" />
+    </g>
+    <path
+       style="fill:#ffffff"
+       d="m 156.1,25.8 v 35 c 0,7.7 -6.3,14 -14,14 v -7 c 3.9,0 7,-3.1 7,-7 v -35 z m 127.8,7 h 15.8 v -7 h -38.5 v 7 h 15.7 v 42 h 7 z m -43.8,-7 v 35 c 0,3.9 -3.1,7 -7,7 -3.9,0 -7,-3.1 -7,-7 v -21 c 0,-7.7 -6.3,-14 -14,-14 -7.7,0 -14,6.3 -14,14 v 21 c 0,3.9 -3.1,7 -7,7 -3.9,0 -7,-3.1 -7,-7 v -35 h -7 v 35 c 0,7.7 6.3,14 14,14 7.7,0 14,-6.3 14,-14 v -21 c 0,-3.9 3.1,-7 7,-7 3.9,0 7,3.1 7,7 v 0 21 c 0,7.7 6.3,14 14,14 7.7,0 14,-6.3 14,-14 v -35 z"
+       id="path4518" />
+  </g>
+</svg>
