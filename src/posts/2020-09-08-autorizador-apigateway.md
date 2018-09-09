@@ -2,7 +2,7 @@
 path: '/autorizador-apigateway'
 date: '2018-09-08'
 title: 'Autorizando request'
-image: css-grid.svg
+image: jwt.svg
 ---
 
 Autorizador de peticiones para apigateway basado en JWT y lambda como microservicio
