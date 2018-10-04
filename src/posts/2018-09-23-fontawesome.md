@@ -27,6 +27,6 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons'
 ```
 
 ```javascript
-// Utilizamos el componente y le pasamos como prop el ICON que queremos usar.
+// Utilizamos el componente y le pasamos como prop el ICON que importamos anteriormente.
 <FontAwesomeIcon icon={faUsers} color="#FFFF" size="4x" />
 ```
