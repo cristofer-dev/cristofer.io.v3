@@ -40,13 +40,13 @@ npm i -D css-loader
 npm i -D file-loader
 ```
 
-[babeljs](https://babeljs.io/docs/en/usage)
-[webpack](https://webpack.js.org/guides/getting-started/)
-[html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
-[mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
-[babel-loader](https://webpack.js.org/loaders/babel-loader/)
-[css-loader](https://webpack.js.org/loaders/css-loader/)
-[file-loader](https://webpack.js.org/loaders/file-loader/)
+* [babeljs](https://babeljs.io/docs/en/usage)
+* [webpack](https://webpack.js.org/guides/getting-started/)
+* [html-webpack-plugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+* [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
+* [babel-loader](https://webpack.js.org/loaders/babel-loader/)
+* [css-loader](https://webpack.js.org/loaders/css-loader/)
+* [file-loader](https://webpack.js.org/loaders/file-loader/)
 
 ## Extras
 
