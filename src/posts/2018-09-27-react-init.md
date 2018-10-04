@@ -50,7 +50,7 @@ npm i -D file-loader
 
 ## Extras
 
-- i18next
-- Linter
-- fontAwwesome
-- Graficos
+* i18next
+* Linter
+* fontAwesome
+* Gráficos
