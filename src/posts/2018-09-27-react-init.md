@@ -14,7 +14,7 @@ Configuración inicial de react app
 npm i -D @babel/core @babel/cli @babel/preset-env
 
 # React
-npm i -D react react-dom
+npm i -S react react-dom
 npm i -D @babel/preset-react
 
 # React router
