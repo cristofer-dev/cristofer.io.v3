@@ -21,7 +21,8 @@ Iniciar Agente              | `eval $(ssh-agent -s)`
 Agregar llave al agente | `ssh-add /ruta/llave_privada` 
 Crear par de llaves SSH | `ssh-keygen`
 Subir archivo a servidor | `scp -i /path/public.pem dir/file.txt user@ip:/path/destino/`
-
+Create private Key (jwt) | `ssh-keygen -t rsa -b 4096 -f jwtRS256.key`
+Create Public key (jwt) | `openssl rsa -in jwtRS256.key -pubout -outform PEM -out jwtRS256.key.pub`
 
 **Sistema** |
  ---- | ----
